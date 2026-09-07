@@ -6,6 +6,7 @@ Public legal pages for the **Ask Lellon** iOS app, served via GitHub Pages.
 | --- | --- |
 | `index.html` | `https://wdexterjackson-bot.github.io/publ/` |
 | `privacy.html` | `https://wdexterjackson-bot.github.io/publ/privacy.html` |
+| `support.html` | `https://wdexterjackson-bot.github.io/publ/support.html` |
 
 ## Enabling GitHub Pages
 
