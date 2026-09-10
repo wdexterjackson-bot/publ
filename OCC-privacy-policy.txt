@@ -1,0 +1,226 @@
+PRIVACY POLICY — OUR COMMUNITY COOKBOOK
+
+Effective date: September 9, 2026
+Last updated: September 9, 2026
+
+Our Community Cookbook ("the app") is developed by Dexter's Lab ("we", "us").
+This policy explains what the app collects, why, who else touches it, and how
+to get rid of it. Contact: wdexterjackson@gmail.com
+
+
+1. THE SHORT VERSION
+
+You can install the app and cook from it without an account, without a
+payment, and without giving us anything. Recipes you create while signed out
+stay on your device.
+
+We do not sell your personal information. We do not share it with data
+brokers. We do not run advertising. The app contains no analytics or
+advertising SDK of any kind, and no third-party tracking.
+
+
+2. WHAT WE COLLECT, AND WHEN
+
+a) Nothing, until you make an account.
+   Creating, editing, cooking, scaling, exporting, and printing your own
+   recipes works with no account. That content is stored locally on your
+   device and is not transmitted to us.
+
+b) Account information (only if you sign in).
+   Signing in is required only for cloud sync, Community Cookbooks, friends,
+   and messaging. Depending on the method you choose we receive:
+   - Sign in with Apple: the identifier Apple issues, and the email address
+     Apple relays (which may be Apple's private relay address if you chose
+     to hide your email).
+   - Sign in with Google: your Google account identifier and email address.
+   - Email and password: the email address you type. Passwords are handled
+     by Google Firebase Authentication and are never visible to us.
+   We also store the display name you provide, so other members can see who
+   contributed a recipe.
+
+c) Content you create.
+   Recipes, ingredients, steps, notes, photos you attach, cookbooks and
+   chapters, meal plans, and grocery lists. If you sign in, this syncs to
+   your account so it survives a lost device.
+
+d) Community content.
+   If you join or create a Community Cookbook: your membership, your role,
+   recipes you publish there, comments and likes you leave, and join
+   requests or invitations you send or accept.
+
+e) Messages.
+   Direct messages, shared recipes, and shared meal plans you send to
+   friends inside the app.
+
+f) An optional, self-typed location.
+   Settings lets you enter a city and state (or city and country) so recipe
+   attribution can say where a recipe came from. This is text you type. The
+   app does not use GPS, does not include any location framework, and never
+   reads your device's location.
+
+g) Purchases.
+   Purchases are processed by Apple. We never see your payment card,
+   billing address, or Apple ID password. We store only the resulting
+   entitlement — whether your account has Community Access, cookbook
+   credits, or an active Annual Community Plus membership — together with
+   the transaction identifier Apple provides so renewals and refunds can be
+   matched to the right account.
+
+h) A small amount of app-preference data.
+   For example whether you have hidden the Featured Cookbooks shelf or the
+   Getting Started section, and when you last viewed comment activity, so
+   your choices follow your account across devices.
+
+
+3. WHAT WE DO NOT COLLECT
+
+- No advertising identifiers, and no advertising.
+- No analytics, behavioral profiling, or usage tracking SDK.
+- No contact list, calendar, microphone, or health data.
+- No device location.
+- No biometric data.
+- No browsing activity outside the app.
+
+
+4. CAMERA AND PHOTOS
+
+The app asks for camera access to scan a QR code (joining a community,
+adding a friend, or signing in on Apple TV) and to photograph a recipe card.
+It asks for photo library access only when you choose a photo to attach.
+
+Recipe photo scanning runs entirely on your device using Apple's Vision
+framework. A photo you scan for text is not uploaded to us or to any third
+party for that purpose. If you then attach the photo to a recipe and you are
+signed in, the photo syncs with that recipe like any other content.
+
+
+5. HOW YOUR INFORMATION IS USED
+
+Solely to operate the app: to authenticate you, to store and sync your
+content, to show community members who wrote a recipe, to deliver messages
+you send, to enforce community permissions and moderation, to apply
+purchases to the correct account, and to respond to support requests.
+
+We do not use your content to train machine-learning models, and we do not
+sell or rent it.
+
+
+6. SERVICE PROVIDERS AND THIRD PARTIES
+
+- Google Firebase (Authentication, Cloud Firestore, Cloud Storage, Cloud
+  Functions) hosts the app's accounts, data, and photos, and runs its
+  server-side logic. Google processes this data on our behalf.
+  https://firebase.google.com/support/privacy
+- Google Sign-In, if you choose that sign-in method.
+  https://policies.google.com/privacy
+- Apple, for Sign in with Apple, App Store purchases, subscription status,
+  and (with your permission) push notifications.
+  https://www.apple.com/legal/privacy/
+- Spoonacular and TheMealDB provide the optional recipe Discover search. A
+  search you type there is sent to those services to return results. Do not
+  type personal information into that search field.
+  https://spoonacular.com/food-api/terms  |  https://www.themealdb.com
+- YouTube. If a recipe includes a video link, the video plays through
+  YouTube's official player, and YouTube may set cookies and collect data
+  under Google's policy while it plays.
+  https://policies.google.com/privacy
+
+We disclose information otherwise only when legally required, or to protect
+the rights and safety of users.
+
+
+7. WHAT OTHER PEOPLE CAN SEE
+
+- Your personal cookbook is private to your account.
+- A recipe you publish to a Community Cookbook is visible to that
+  community's members, along with your display name.
+- Community administrators can see the membership roster and moderate
+  published recipes. Ordinary members cannot see the roster.
+- Recipe attribution is durable by design: when someone copies a community
+  recipe, the copy permanently records the original author and community.
+  Consider this before publishing under a name you would not want kept.
+- Email discoverability is optional. Settings has a switch controlling
+  whether friends can find you by email address; turning it off stops that
+  lookup from matching you.
+
+
+8. DATA RETENTION AND DELETION
+
+Your content is kept until you delete it or delete your account.
+
+Deleting your account from within the app (Account > Delete Account) removes
+your profile, public profile, entitlements, memberships, friendships and
+friend requests, direct messages, shared recipes, comments, cloud-synced
+cookbooks and recipes, published community recipes, and your uploaded photos.
+Communities where you are the last remaining member are deleted with you.
+
+Two limits to be aware of, stated plainly:
+- If you are the sole administrator of a community that still has other
+  members, deletion is blocked until you promote another administrator or
+  remove the community. This exists so a community is never orphaned.
+- Content that other people have already copied into their own cookbooks
+  belongs to them and remains in their cookbooks, carrying the attribution
+  recorded at the time of copying.
+
+Recipes stored only on your device are removed when you delete the app.
+
+If a lapsed Annual Community Plus membership is not renewed, photos stored
+under that membership may be removed after a grace period; the app warns
+before this happens.
+
+
+9. YOUR RIGHTS
+
+You may access, correct, export, or delete your information at any time:
+- Access and correction: directly in the app.
+- Export: any cookbook can be exported as a PDF, and recipes can be shared
+  as files, from within the app.
+- Deletion: Account > Delete Account, as described above.
+
+If you are in the European Economic Area or the United Kingdom, you also
+have the right to object to or restrict processing, the right to data
+portability, and the right to complain to your local supervisory authority.
+Our legal basis for processing is performance of our agreement with you
+(operating the app) and your consent where you have given it.
+
+If you are a California resident, you have the right to know what personal
+information is collected, to delete it, and to opt out of its sale. We do
+not sell personal information, so there is nothing to opt out of. We will
+not discriminate against you for exercising these rights.
+
+To make a request, email wdexterjackson@gmail.com. We may need to verify
+that you control the account in question.
+
+
+10. CHILDREN
+
+The app is not directed to children under 13, and we do not knowingly
+collect personal information from them. If you believe a child has created
+an account, email us and we will delete it. Community Cookbooks are
+invitation- or approval-based; an adult administrator controls who joins and
+what is published.
+
+
+11. DATA SECURITY AND LOCATION
+
+Data is stored on Google Cloud infrastructure and protected by server-side
+security rules that restrict each record to the accounts entitled to it.
+Passwords are hashed and managed by Firebase Authentication. Entitlement
+grants are verified server-side and cannot be granted by a client.
+
+Data may be stored and processed in the United States and other countries
+where Google operates. No method of transmission or storage is completely
+secure, and we cannot guarantee absolute security.
+
+
+12. CHANGES TO THIS POLICY
+
+If we change this policy we will update the date at the top and post the
+revised version at the same address. Material changes will be surfaced in
+the app. Continuing to use the app after a change means you accept it.
+
+
+13. CONTACT
+
+Dexter's Lab
+Email: wdexterjackson@gmail.com

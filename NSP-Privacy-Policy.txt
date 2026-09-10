@@ -1,0 +1,168 @@
+NORTHSTAR MEETING ORGANIZER & NOTE TAKER
+PRIVACY POLICY
+
+Effective: 10 September 2026
+Last updated: 10 September 2026
+
+
+SUMMARY
+
+NorthStar records and transcribes your meetings on your own device. We do
+not have an account system, we do not run servers, and we do not receive
+your recordings, transcripts, notes or any other content. There is no
+analytics, no crash reporting, no advertising and no tracking of any kind.
+
+Your audio never leaves your device under any setting.
+
+
+1. WHO WE ARE
+
+NorthStar Meeting Organizer & Note Taker ("NorthStar", "the app") is
+developed and published by W. Dexter Jackson ("we", "us").
+
+Contact: wdexterjackson@gmail.com
+
+
+2. WHAT WE COLLECT
+
+Nothing.
+
+We do not operate a backend service. The app has no sign-up, no login and
+no user account. We do not receive, store or process your meeting audio,
+transcripts, summaries, action items, notes, attachments, calendar data,
+contacts, device identifiers, location, usage statistics or crash reports.
+
+We do not sell, rent, share or disclose personal information, because we
+do not have any.
+
+
+3. WHAT THE APP STORES, AND WHERE
+
+Everything the app creates is stored locally on your device, inside the
+app's own protected storage, and is covered by your device's encryption
+and passcode:
+
+  - Audio recordings and imported audio files
+  - Transcripts, speaker labels and voice profiles
+  - Summaries, minutes, talking points, decisions and action items
+  - Notes, photos and files you attach to a meeting
+  - Meeting titles, dates, attendees and calendar links you create
+  - App settings and processing history
+
+A Google API key, if you choose to supply one (section 5), is stored in
+the iOS Keychain.
+
+Some of this data is shared with the NorthStar Apple Watch app and
+widgets through a private App Group container on your own devices. That
+container is not accessible to other apps.
+
+
+4. iCLOUD SYNC (OPTIONAL, OFF BY DEFAULT)
+
+If you enable sync, the app copies your meetings to your own private
+iCloud database (Apple CloudKit) so your iPhone and iPad can see the same
+library. This is your iCloud account and your storage quota. We have no
+access to it. Apple's handling of iCloud data is governed by Apple's
+privacy policy.
+
+If you never enable sync, nothing leaves your device for this purpose.
+
+
+5. OPTIONAL AI PROCESSING (OFF BY DEFAULT)
+
+By default, transcription and every generated document are produced by
+models running on your device, with no network access.
+
+You may instead choose Google Gemini as the AI engine. If you do, you
+must supply your own Google API key, obtained from Google AI Studio. When
+that engine is selected:
+
+  - Only TEXT is sent: the meeting transcript, the meeting title and date,
+    the names of people associated with the meeting, and your first name
+    if you have entered one.
+  - AUDIO IS NEVER SENT. Not on this setting, not on any setting.
+  - The request goes directly from your device to Google using your key.
+    It does not pass through us.
+  - Your use of that API is governed by Google's terms and privacy policy.
+    The app links to them before you enter a key.
+
+You can turn this off at any time in Settings. A workspace set to
+"On this device only" will not send anything to any AI provider,
+regardless of the engine selected.
+
+
+6. OTHER NETWORK ACCESS
+
+The app makes no other network requests. If you choose to install an
+alternative speech recognition model, the app downloads it from Hugging
+Face at your explicit request. That download carries no personal data and
+happens only when you ask for it.
+
+
+7. DEVICE PERMISSIONS
+
+  - Microphone — to record meetings. Required to record.
+  - Speech Recognition — for on-device transcription.
+  - Calendar — optional; to show your events and, if you turn it on, to
+    add an event for a recording.
+  - Camera — optional; to photograph something into a meeting.
+  - Photos — the app uses the system photo picker, which returns only the
+    image you choose and requires no access to your library.
+
+Each is requested only when the feature is used, and each can be revoked
+in iOS Settings.
+
+
+8. RECORDING OTHER PEOPLE
+
+You are responsible for recording lawfully. Laws on recording
+conversations differ by country, state and province; some require the
+consent of every participant. Please obtain consent before recording, and
+follow the rules of your workplace and jurisdiction.
+
+
+9. RETENTION AND DELETION
+
+Your data stays on your device until you delete it. Deleting a meeting
+removes its audio, transcript, generated documents, attachments and
+processing history. Deleting the app removes everything stored on that
+device.
+
+If you enabled iCloud sync, deleting the app does not remove data already
+in your iCloud account; you can remove it from iCloud settings on your
+device.
+
+Because we hold no copy of your data, there is nothing for us to delete
+and no retention period on our side.
+
+
+10. CHILDREN
+
+NorthStar is not directed at children and we do not knowingly collect any
+information from anyone, including children.
+
+
+11. YOUR RIGHTS
+
+Privacy laws such as the GDPR and the CCPA give you rights to access,
+correct, export and delete personal information held about you. We hold
+none, so there is nothing for us to produce or erase. You already have
+direct control of everything the app stores: it is on your device, and
+you can read, export, share or delete any of it at any time from within
+the app.
+
+We do not sell or share personal information, and we have never done so.
+
+
+12. CHANGES TO THIS POLICY
+
+If this policy changes, the updated version will be published at the same
+address with a new effective date. Material changes will be noted in the
+app's release notes.
+
+
+13. CONTACT
+
+Questions about this policy, or about privacy in NorthStar:
+
+  wdexterjackson@gmail.com

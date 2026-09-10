@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — NorthStar Meeting Organizer &amp; Note Taker</title>
+<style>
+  :root{
+    --ink:#16191d; --ink-soft:#525a63; --ink-faint:#7b848d;
+    --page:#ffffff; --panel:#f5f6f4; --rule:#e2e5e0; --accent:#1f5f4b;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ink:#e8eae7; --ink-soft:#a8b0aa; --ink-faint:#828a85;
+      --page:#14171a; --panel:#1c2023; --rule:#2b3034; --accent:#7fc9ad;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--page); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust:100%;
+  }
+  main{max-width:44rem; margin:0 auto; padding:3rem 1.5rem 5rem}
+  h1{font-size:1.7rem; line-height:1.25; margin:0 0 .3rem; letter-spacing:-.01em}
+  .sub{color:var(--ink-faint); font-size:.9rem; margin:0 0 2rem}
+  h2{
+    font-size:.82rem; text-transform:uppercase; letter-spacing:.08em;
+    color:var(--accent); margin:2.6rem 0 .6rem; font-weight:700;
+  }
+  p{margin:0 0 1rem}
+  ul{margin:0 0 1rem; padding-left:1.2rem}
+  li{margin:.35rem 0}
+  hr{border:0; border-top:1px solid var(--rule); margin:2.5rem 0}
+  a{color:var(--accent)}
+  strong{font-weight:650}
+  .lede{
+    background:var(--panel); border:1px solid var(--rule); border-radius:10px;
+    padding:1.1rem 1.25rem; margin:0 0 2rem;
+  }
+  .lede p:last-child{margin-bottom:0}
+  .note{color:var(--ink-soft); font-size:.94rem}
+  footer{margin-top:3rem; padding-top:1.2rem; border-top:1px solid var(--rule);
+         color:var(--ink-faint); font-size:.88rem}
+</style>
+</head>
+<body>
+<main>
+
+<h1>Privacy Policy</h1>
+<p class="sub">NorthStar Meeting Organizer &amp; Note Taker · Effective 10 September 2026</p>
+
+<div class="lede">
+<p><strong>NorthStar records and transcribes your meetings on your own device.</strong> We have no account system, we run no servers, and we do not receive your recordings, transcripts, notes or any other content. There is no analytics, no crash reporting, no advertising and no tracking of any kind.</p>
+<p><strong>Your audio never leaves your device under any setting.</strong></p>
+</div>
+
+<h2>1. Who we are</h2>
+<p>NorthStar Meeting Organizer &amp; Note Taker (“NorthStar”, “the app”) is developed and published by W. Dexter Jackson (“we”, “us”).</p>
+<p>Contact: <a href="mailto:wdexterjackson@gmail.com">wdexterjackson@gmail.com</a></p>
+
+<h2>2. What we collect</h2>
+<p><strong>Nothing.</strong></p>
+<p>We do not operate a backend service. The app has no sign-up, no login and no user account. We do not receive, store or process your meeting audio, transcripts, summaries, action items, notes, attachments, calendar data, contacts, device identifiers, location, usage statistics or crash reports.</p>
+<p>We do not sell, rent, share or disclose personal information, because we do not have any.</p>
+
+<h2>3. What the app stores, and where</h2>
+<p>Everything the app creates is stored locally on your device, inside the app’s own protected storage, covered by your device’s encryption and passcode:</p>
+<ul>
+  <li>Audio recordings and imported audio files</li>
+  <li>Transcripts, speaker labels and voice profiles</li>
+  <li>Summaries, minutes, talking points, decisions and action items</li>
+  <li>Notes, photos and files you attach to a meeting</li>
+  <li>Meeting titles, dates, attendees and calendar links you create</li>
+  <li>App settings and processing history</li>
+</ul>
+<p>A Google API key, if you choose to supply one (section 5), is stored in the iOS Keychain.</p>
+<p>Some of this data is shared with the NorthStar Apple Watch app and widgets through a private App Group container on your own devices. That container is not accessible to other apps.</p>
+
+<h2>4. iCloud sync — optional, off by default</h2>
+<p>If you enable sync, the app copies your meetings to <strong>your own private iCloud database</strong> (Apple CloudKit) so your iPhone and iPad can see the same library. This is your iCloud account and your storage quota. We have no access to it. Apple’s handling of iCloud data is governed by Apple’s privacy policy.</p>
+<p>If you never enable sync, nothing leaves your device for this purpose.</p>
+
+<h2>5. Optional AI processing — off by default</h2>
+<p>By default, transcription and every generated document are produced by models running on your device, with no network access.</p>
+<p>You may instead choose Google Gemini as the AI engine. If you do, you must supply your own Google API key, obtained from Google AI Studio. When that engine is selected:</p>
+<ul>
+  <li>Only <strong>text</strong> is sent: the meeting transcript, the meeting title and date, the names of people associated with the meeting, and your first name if you have entered one.</li>
+  <li><strong>Audio is never sent.</strong> Not on this setting, not on any setting.</li>
+  <li>The request goes directly from your device to Google using your key. It does not pass through us.</li>
+  <li>Your use of that API is governed by Google’s terms and privacy policy. The app links to them before you enter a key.</li>
+</ul>
+<p>You can turn this off at any time in Settings. A workspace set to <em>On this device only</em> will not send anything to any AI provider, regardless of the engine selected.</p>
+
+<h2>6. Other network access</h2>
+<p>The app makes no other network requests. If you choose to install an alternative speech recognition model, the app downloads it from Hugging Face at your explicit request. That download carries no personal data and happens only when you ask for it.</p>
+
+<h2>7. Device permissions</h2>
+<ul>
+  <li><strong>Microphone</strong> — to record meetings. Required to record.</li>
+  <li><strong>Speech Recognition</strong> — for on-device transcription.</li>
+  <li><strong>Calendar</strong> — optional; to show your events and, if you turn it on, to add an event for a recording.</li>
+  <li><strong>Camera</strong> — optional; to photograph something into a meeting.</li>
+  <li><strong>Photos</strong> — the app uses the system photo picker, which returns only the image you choose and requires no access to your library.</li>
+</ul>
+<p>Each is requested only when the feature is used, and each can be revoked in iOS Settings.</p>
+
+<h2>8. Recording other people</h2>
+<p>You are responsible for recording lawfully. Laws on recording conversations differ by country, state and province, and some require the consent of every participant. Please obtain consent before recording, and follow the rules of your workplace and jurisdiction.</p>
+
+<h2>9. Retention and deletion</h2>
+<p>Your data stays on your device until you delete it. Deleting a meeting removes its audio, transcript, generated documents, attachments and processing history. Deleting the app removes everything stored on that device.</p>
+<p>If you enabled iCloud sync, deleting the app does not remove data already in your iCloud account; you can remove it from iCloud settings on your device.</p>
+<p>Because we hold no copy of your data, there is nothing for us to delete and no retention period on our side.</p>
+
+<h2>10. Children</h2>
+<p>NorthStar is not directed at children, and we do not knowingly collect information from anyone, including children.</p>
+
+<h2>11. Your rights</h2>
+<p>Privacy laws such as the GDPR and the CCPA give you rights to access, correct, export and delete personal information held about you. We hold none, so there is nothing for us to produce or erase. You already have direct control of everything the app stores: it is on your device, and you can read, export, share or delete any of it at any time from within the app.</p>
+<p>We do not sell or share personal information, and we have never done so.</p>
+
+<h2>12. Changes to this policy</h2>
+<p>If this policy changes, the updated version will be published at the same address with a new effective date. Material changes will be noted in the app’s release notes.</p>
+
+<h2>13. Contact</h2>
+<p>Questions about this policy, or about privacy in NorthStar: <a href="mailto:wdexterjackson@gmail.com">wdexterjackson@gmail.com</a></p>
+
+<footer>NorthStar Meeting Organizer &amp; Note Taker · Privacy Policy · Effective 10 September 2026</footer>
+
+</main>
+</body>
+</html>
